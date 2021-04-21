@@ -1,0 +1,161 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-size:16px;
+}
+img,
+iframe {
+	max-width: 100%;
+	height: auto;
+	/* will keep aspect ratio */
+	border: 0;
+	/* stops border is image in link (what)*/
+}
+/* CSS comments are pog */
+body {
+	font-family: comic sans ms, sans-serif;
+	background-color: #16171F;
+}
+
+header {
+	background-color: #2E3134;
+}
+header, footer {
+	text-align: center;
+}
+/* TYPOGRPAHY */
+h1 {
+	font-size: 50px;
+	color: #fff;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 30px;
+	font-family: comic sans ms, sans-serif;
+	color: #F5E6D6;
+	text-tranform: uppercase;
+}
+h3 {
+	color: #F2CEB4;
+}
+p {
+	color: #ECBD9C;
+}
+li{
+	color: #ECBD9C;
+}
+blockquote{
+	color: #ECBD9C;
+	font-stle: italic;
+}
+footer {
+	color: #fff;
+}
+h1,h2,p,li {
+	padding-bottom: 1em;
+}
+.item {
+	background-color: #302B39;
+		padding: 1%;
+		margin: 1%;
+		margin-bottom: 20px;
+	    margin-top: 20px;
+	    border-radius: 10px;
+}
+main {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.item li {
+	margin-left: 25px;
+}
+nav {
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	background: #05000E;
+	color: white;
+	padding: 5px;
+	text-decortation: none;
+	border-radius: 5px;
+}
+nav a:hover {
+background: orange;
+}
+body {
+background-color: black;
+background-image: url(BG.jpeg); 
+background-repeat: no-repeat; 
+	background-size: cover;}
+
+input [type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #fff;
+	boder-radius: 4px;
+	box-sizing: border-box;
+}
+input [type=submit] {
+	width: 100%;
+	background-color: #79708A;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #291437;
+}
+
+div {
+	border-radis: 5px;
+	background-color: #333139;
+	padding: 20px;
+}
+label {
+	color: white;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		background-color: black;
+		background-image: url(BG.jpeg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.item {
+		width: 31.3%;
+		background-color: (102,102,204,0.9); float: left;
+	}
+	footer {
+		color: white;
+		clear: both;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
